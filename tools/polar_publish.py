@@ -66,7 +66,7 @@ def publish(item: dict, existing: dict) -> dict:
     if item["name"] in existing:
         print("skip (exists):", item["name"])
         return existing[item["name"]]
-    file_id = upload(ROOT / item["file"], "downloadable")
+    file_ids = [upload(ROOT / f, "downloadable") for f in item.get("files") or [item["file"]]]
     media_id = upload(ROOT / item["cover"], "product_media")
     product = call("POST", "/v1/products/", {
         "name": item["name"],
@@ -80,7 +80,7 @@ def publish(item: dict, existing: dict) -> dict:
     benefit = call("POST", "/v1/benefits/", {
         "type": "downloadables",
         "description": item["benefit"],
-        "properties": {"files": [file_id]},
+        "properties": {"files": file_ids},
     })
     call("POST", f"/v1/products/{product['id']}/benefits", {"benefits": [benefit["id"]]})
     link = call("POST", "/v1/checkout-links/", {

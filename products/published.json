@@ -8,5 +8,27 @@
       "product_id": "d50559ba-b99d-409f-b698-28b60e9ac8a2",
       "checkout_url": "https://sandbox-api.polar.sh/v1/checkout-links/polar_cl_rIL9aM1z95yB2VhV0ZJFQFqHHKO58ETww1UEW2pIvUY/redirect"
     }
+  },
+  "production": {
+    "Haushaltsbudget Schweiz 2026 – Excel & Google Sheets": {
+      "product_id": "0294d725-f014-4d84-adae-bb95f5a0d4d8",
+      "checkout_url": "https://buy.polar.sh/polar_cl_Owws2zlfIQ8XHFj7C979bcmaf5lDKnIBw7DbM13qHUe"
+    },
+    "Swiss Budget Planner 2026 – Excel & Google Sheets (CHF)": {
+      "product_id": "46e8b8cb-3ef2-483c-8924-8487213749f4",
+      "checkout_url": "https://buy.polar.sh/polar_cl_nA6EmGB3tGpyQ3hMwj0uuACNZ39CztpRvAjgm0j4qLS"
+    },
+    "Umzugs-Planer Schweiz – Checkliste mit automatischen Fristen": {
+      "product_id": "b4e7d1fd-1a93-411b-b4c8-48ab761df1de",
+      "checkout_url": "https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn"
+    },
+    "Moving in Switzerland Planner – Automatic Deadlines": {
+      "product_id": "76eef0ee-1f17-4e54-9cb2-47cbfddaf55d",
+      "checkout_url": "https://buy.polar.sh/polar_cl_e8HSmChjNQEXRxmNwOCIEkiSzYy3jAEoPx3Td2jUs1D"
+    },
+    "Schweiz-Paket / Swiss Bundle – Budget + Umzug (DE & EN)": {
+      "product_id": "27623a3b-37fd-4bc1-bff1-6dbb34cd26d1",
+      "checkout_url": "https://buy.polar.sh/polar_cl_NaqmaQzEcmoyMctwVsCq6fd2fxqlx86Tyaitl3zJ5h2"
+    }
   }
 }

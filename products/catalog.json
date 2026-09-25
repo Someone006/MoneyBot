@@ -22,5 +22,46 @@
       "usd": 1190,
       "eur": 1090
     }
+  },
+  {
+    "name": "Umzugs-Planer Schweiz – Checkliste mit automatischen Fristen",
+    "file": "products/umzug-schweiz/dist/Umzugs-Planer-Schweiz.xlsx",
+    "cover": "products/umzug-schweiz/dist/cover.png",
+    "benefit": "Download: Umzugs-Planer (Excel)",
+    "prices": {
+      "chf": 990,
+      "usd": 1190,
+      "eur": 1090
+    },
+    "description": "**Nie wieder eine Frist verpassen beim Umzug in der Schweiz.**\n\nUmzugsdatum eingeben – alle 30 Aufgaben bekommen automatisch ihr Fälligkeitsdatum: Wohnung kündigen, Mietkaution, Nachsendeauftrag, Abmeldung/Anmeldung bei der Gemeinde (14 Tage!), Strassenverkehrsamt, Krankenkasse, Hausrat, Wohnungsabgabe …\n\n- ✅ Überfällige offene Aufgaben werden rot markiert\n- ✅ Status-Auswahl und Fortschrittsanzeige\n- ✅ Extra-Teil für Zuzug aus dem Ausland (Krankenversicherung, Führerausweis …)\n- ✅ Excel und Google Sheets, ohne Makros\n\n*Fristen können je nach Kanton und Mietvertrag abweichen.*"
+  },
+  {
+    "name": "Moving in Switzerland Planner – Automatic Deadlines",
+    "file": "products/umzug-schweiz/dist/Moving-in-Switzerland-Planner.xlsx",
+    "cover": "products/umzug-schweiz/dist/cover-en.png",
+    "benefit": "Download: Moving planner (Excel)",
+    "prices": {
+      "chf": 990,
+      "usd": 1190,
+      "eur": 1090
+    },
+    "description": "**Never miss a deadline when moving to or within Switzerland.**\n\nEnter your moving date and all 30 tasks get their due date automatically: lease notice, rental deposit, mail forwarding, commune (de)registration (14 days!), road traffic office, health insurance, contents insurance, flat handover …\n\n- ✅ Overdue open tasks turn red\n- ✅ Status dropdown and progress tracker\n- ✅ Extra section for expats moving from abroad (health insurance within 3 months, driving licence exchange …)\n- ✅ Excel and Google Sheets, no macros\n\n*Deadlines can vary by canton and lease.*"
+  },
+  {
+    "name": "Schweiz-Paket / Swiss Bundle – Budget + Umzug (DE & EN)",
+    "files": [
+      "products/budget-schweiz/dist/Haushaltsbudget-Schweiz-2026.xlsx",
+      "products/budget-schweiz/dist/Swiss-Budget-Planner-2026.xlsx",
+      "products/umzug-schweiz/dist/Umzugs-Planer-Schweiz.xlsx",
+      "products/umzug-schweiz/dist/Moving-in-Switzerland-Planner.xlsx"
+    ],
+    "cover": "products/bundle-cover.png",
+    "benefit": "Download: 4 Vorlagen / templates",
+    "prices": {
+      "chf": 1490,
+      "usd": 1790,
+      "eur": 1590
+    },
+    "description": "**Alle Vorlagen zum Sparpreis – Deutsch und Englisch.**\n\n- Haushaltsbudget Schweiz 2026 (DE) + Swiss Budget Planner 2026 (EN)\n- Umzugs-Planer Schweiz (DE) + Moving in Switzerland Planner (EN)\n\nMonatsbudget mit Schweizer Kategorien, Notgroschen-, Säule-3a- und Steuer-Rückstellungs-Rechner, Umzugs-Checkliste mit automatischen Fristen. Excel & Google Sheets, sofort zum Download.\n\n*All templates in German and English. Planning tools, not tax or financial advice.*"
   }
 ]

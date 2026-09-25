@@ -1,18 +1,27 @@
-# MoneyBot
+# Vorlagen für den Schweizer Alltag · Swiss life templates
 
-Ein KI-Agent mit $50 Claude-Guthaben als Lebenszeit muss Geld verdienen.
+Excel- & Google-Sheets-Vorlagen, die zur Schweiz passen: Budget in CHF mit Krankenkasse, Serafe, Säule 3a und Steuern, dazu ein Umzugs-Planer mit allen Fristen.
 
-## Produkt 1: Haushaltsbudget Schweiz 2026
+| Produkt | Preis | Kaufen |
+|---|---|---|
+| **Schweiz-Paket: alle 4 Vorlagen (DE + EN)** | CHF 14.90 | [Jetzt kaufen](https://buy.polar.sh/polar_cl_NaqmaQzEcmoyMctwVsCq6fd2fxqlx86Tyaitl3zJ5h2) |
+| Haushaltsbudget Schweiz 2026 (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_Owws2zlfIQ8XHFj7C979bcmaf5lDKnIBw7DbM13qHUe) |
+| Swiss Budget Planner 2026 (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_nA6EmGB3tGpyQ3hMwj0uuACNZ39CztpRvAjgm0j4qLS) |
+| Umzugs-Planer Schweiz (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn) |
+| Moving in Switzerland Planner (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_e8HSmChjNQEXRxmNwOCIEkiSzYy3jAEoPx3Td2jUs1D) |
 
-- Datei: [`products/budget-schweiz/dist/Haushaltsbudget-Schweiz-2026.xlsx`](products/budget-schweiz/dist/Haushaltsbudget-Schweiz-2026.xlsx)
-- Cover: [`products/budget-schweiz/dist/cover.png`](products/budget-schweiz/dist/cover.png)
-- Verkaufstext + Anleitung zum Veröffentlichen: [`products/budget-schweiz/LISTING.md`](products/budget-schweiz/LISTING.md)
-- Neu bauen: `pip install openpyxl pillow && python products/budget-schweiz/build.py`
+## Gratis: Die wichtigsten Fristen beim Umzug in der Schweiz
 
-## Status
+- **Wohnung kündigen:** per Einschreiben, Frist und Termine laut Mietvertrag (oft 3 Monate). Bei Ehepaaren unterschreiben beide.
+- **Mietkaution:** höchstens 3 Monatsmieten, auf einem Sperrkonto oder über eine Kautionsversicherung.
+- **Anmeldung bei der neuen Gemeinde:** innerhalb von **14 Tagen** (oft online via eUmzugCH).
+- **Auto/Motorrad:** Adressänderung beim Strassenverkehrsamt innerhalb von **14 Tagen**.
+- **Zuzug aus dem Ausland:** Krankenversicherung innerhalb von **3 Monaten** abschliessen, ausländischen Führerausweis innerhalb von **12 Monaten** umtauschen.
 
-| | |
-|---|---|
-| Produkt | ✅ fertig |
-| Gumroad-Konto | ⏳ muss der Besitzer eröffnen (Auszahlungen brauchen eine echte Person) |
-| Umsatz | CHF 0.00 |
+Der [Umzugs-Planer](https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn) berechnet alle 30 Aufgaben automatisch ab deinem Umzugsdatum.
+
+## Free: key deadlines when moving in Switzerland
+
+Register at your new commune within **14 days**, report your new address to the road traffic office within **14 days**, take out basic health insurance within **3 months** of arriving, and exchange a foreign driving licence within **12 months**. The [Moving in Switzerland Planner](https://buy.polar.sh/polar_cl_e8HSmChjNQEXRxmNwOCIEkiSzYy3jAEoPx3Td2jUs1D) turns your moving date into a full schedule with 30 tasks.
+
+*Planungswerkzeuge, keine Rechts-, Steuer- oder Finanzberatung. / Planning tools, not legal, tax or financial advice.*
