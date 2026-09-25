@@ -13,10 +13,19 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from PIL import Image, ImageDraw, ImageFont
 
+from i18n_en import EN
+
 HERE = Path(__file__).parent
 DIST = HERE / "dist"
-XLSX = DIST / "Haushaltsbudget-Schweiz-2026.xlsx"
-COVER = DIST / "cover.png"
+OUTPUT = {
+    "de": ("Haushaltsbudget-Schweiz-2026.xlsx", "cover.png"),
+    "en": ("Swiss-Budget-Planner-2026.xlsx", "cover-en.png"),
+}
+LANG = "de"
+
+
+def tr(text):
+    return EN.get(text, text) if LANG == "en" else text
 
 CHF = '"CHF "#,##0.00'
 PCT = "0.0%"
@@ -159,7 +168,7 @@ def build_budget(wb):
 
 
 def build_overview(wb, rows):
-    ws = wb.create_sheet("Jahresübersicht")
+    ws = wb.create_sheet(tr("Jahresübersicht"))
     title(ws, "Jahresübersicht", "Wird automatisch aus dem Blatt «Budget» befüllt.")
     for col, text in enumerate(["Monat", "Einnahmen", "Ausgaben", "Saldo", "Sparquote"], 1):
         c = ws.cell(row=4, column=col, value=text)
@@ -186,7 +195,7 @@ def build_overview(wb, rows):
         ws.column_dimensions[col].width = width
 
     chart = BarChart()
-    chart.title = "Einnahmen vs. Ausgaben"
+    chart.title = tr("Einnahmen vs. Ausgaben")
     chart.y_axis.title = "CHF"
     chart.add_data(Reference(ws, min_col=2, max_col=3, min_row=4, max_row=16), titles_from_data=True)
     chart.set_categories(Reference(ws, min_col=1, min_row=5, max_row=16))
@@ -214,7 +223,7 @@ def calc_row(ws, r, label, formula, fmt=CHF, bold=True):
 
 
 def build_helpers(wb, rows):
-    ws = wb.create_sheet("Notgroschen")
+    ws = wb.create_sheet(tr("Notgroschen"))
     title(ws, "Notgroschen-Rechner", "Faustregel: 3–6 Monate Fixkosten auf der Seite.")
     calc_row(ws, 4, "Fixkosten pro Monat (aus Budget)", f"=Budget!B{rows['fixed']}")
     calc_row(ws, 5, "Ziel minimal (3 Monate)", "=B4*3")
@@ -225,7 +234,7 @@ def build_helpers(wb, rows):
     input_row(ws, 10, "Monatliche Sparrate für den Notgroschen", 0)
     calc_row(ws, 11, "Monate bis zum Ziel", '=IF(B9=0,0,IFERROR(ROUNDUP(B9/B10,0),"Sparrate eingeben"))', fmt="0")
 
-    ws = wb.create_sheet("Säule 3a")
+    ws = wb.create_sheet(tr("Säule 3a"))
     title(ws, "Säule-3a-Tracker", "Einzahlungen werden aus der Zeile «Säule 3a» im Budget übernommen.")
     input_row(ws, 4, "Maximaler 3a-Betrag für dieses Jahr", None,
               note="Offiziellen Maximalbetrag eintragen (je nach Situation mit/ohne Pensionskasse, siehe ESTV).")
@@ -235,7 +244,7 @@ def build_helpers(wb, rows):
     calc_row(ws, 8, "Nötige Einzahlung pro verbleibendem Monat", "=IFERROR(B6/(13-B7),0)")
     calc_row(ws, 9, "Ausschöpfung", "=IFERROR(B5/B4,0)", fmt=PCT)
 
-    ws = wb.create_sheet("Steuer-Rückstellung")
+    ws = wb.create_sheet(tr("Steuer-Rückstellung"))
     title(ws, "Steuer-Rückstellung", "Damit die Steuerrechnung nicht überrascht.")
     input_row(ws, 4, "Erwartete Steuern dieses Jahr", 0,
               note="Tipp: letzte Steuerrechnung oder den Online-Steuerrechner deines Kantons verwenden.")
@@ -245,8 +254,8 @@ def build_helpers(wb, rows):
     calc_row(ws, 8, "Deckungsgrad", "=IFERROR(B6/B4,0)", fmt=PCT)
 
     for name in ("Notgroschen", "Säule 3a", "Steuer-Rückstellung"):
-        wb[name].column_dimensions["A"].width = 46
-        wb[name].column_dimensions["B"].width = 18
+        wb[tr(name)].column_dimensions["A"].width = 46
+        wb[tr(name)].column_dimensions["B"].width = 18
 
 
 def build_start(wb):
@@ -289,7 +298,16 @@ def build_workbook():
     build_helpers(wb, rows)
     wb["Start"].sheet_properties.tabColor = RED
     wb["Budget"].sheet_properties.tabColor = RED
-    wb.save(XLSX)
+    if LANG == "en":
+        for ws in wb.worksheets:
+            for row in ws.iter_rows():
+                for cell in row:
+                    if isinstance(cell.value, str):
+                        if cell.value.startswith("="):
+                            cell.value = cell.value.replace('"Sparrate eingeben"', f'"{tr("Sparrate eingeben")}"')
+                        else:
+                            cell.value = tr(cell.value)
+    wb.save(DIST / OUTPUT[LANG][0])
 
 
 def build_cover():
@@ -307,9 +325,9 @@ def build_cover():
     d.rectangle([cx - s * 2, cy - s * 2, cx + s * 2, cy + s * 2], fill="#FFFFFF")
     d.rectangle([cx - s * 0.6, cy - s * 1.6, cx + s * 0.6, cy + s * 1.6], fill="#D52B1E")
     d.rectangle([cx - s * 1.6, cy - s * 0.6, cx + s * 1.6, cy + s * 0.6], fill="#D52B1E")
-    d.text((330, 110), "Haushaltsbudget", font=f_big, fill="#FFFFFF")
-    d.text((330, 225), "Schweiz 2026", font=f_big, fill="#FFFFFF")
-    d.text((80, 480), "Excel & Google Sheets · in CHF", font=f_mid, fill="#1F2937")
+    d.text((330, 110), tr("Haushaltsbudget"), font=f_big, fill="#FFFFFF")
+    d.text((330, 225), tr("Schweiz 2026"), font=f_big, fill="#FFFFFF")
+    d.text((80, 480), tr("Excel & Google Sheets · in CHF"), font=f_mid, fill="#1F2937")
     bullets = [
         "Monatsbudget mit Schweizer Kategorien (Krankenkasse, Serafe, 3a …)",
         "Automatische Sparquote, Saldo & Abweichungen",
@@ -320,13 +338,14 @@ def build_cover():
     y = 590
     for b in bullets:
         d.ellipse([90, y + 12, 112, y + 34], fill="#D52B1E")
-        d.text((135, y), b, font=f_small, fill="#374151")
+        d.text((135, y), tr(b), font=f_small, fill="#374151")
         y += 95
-    img.save(COVER)
+    img.save(DIST / OUTPUT[LANG][1])
 
 
 if __name__ == "__main__":
     DIST.mkdir(exist_ok=True)
-    build_workbook()
-    build_cover()
-    print(f"OK: {XLSX}\nOK: {COVER}")
+    for LANG in OUTPUT:
+        build_workbook()
+        build_cover()
+        print("OK:", LANG, *OUTPUT[LANG])
