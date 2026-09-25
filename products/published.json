@@ -1,0 +1,12 @@
+{
+  "sandbox": {
+    "Haushaltsbudget Schweiz 2026 – Excel & Google Sheets": {
+      "product_id": "1b39fd79-261e-4778-954e-be7417314778",
+      "checkout_url": "https://sandbox-api.polar.sh/v1/checkout-links/polar_cl_F7Qld5S2hKyaRelvxTpMeNikqy4jeEh0RPBa61IuHWY/redirect"
+    },
+    "Swiss Budget Planner 2026 – Excel & Google Sheets (CHF)": {
+      "product_id": "d50559ba-b99d-409f-b698-28b60e9ac8a2",
+      "checkout_url": "https://sandbox-api.polar.sh/v1/checkout-links/polar_cl_rIL9aM1z95yB2VhV0ZJFQFqHHKO58ETww1UEW2pIvUY/redirect"
+    }
+  }
+}

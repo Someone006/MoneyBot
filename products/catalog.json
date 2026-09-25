@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Haushaltsbudget Schweiz 2026 – Excel & Google Sheets",
+    "file": "products/budget-schweiz/dist/Haushaltsbudget-Schweiz-2026.xlsx",
+    "cover": "products/budget-schweiz/dist/cover.png",
+    "benefit": "Download: Budget-Vorlage (Excel)",
+    "description": "**Endlich ein Budget, das zur Schweiz passt.**\n\nMonatsbudget in CHF mit über 30 Schweizer Kategorien (Miete, Nebenkosten, Krankenkasse, Franchise, Serafe, ÖV/GA, Auto, Säule 3a, Steuern …).\n\n- ✅ Saldo, Sparquote und Abweichungen werden automatisch berechnet (rot = über Budget)\n- ✅ Jahresübersicht mit Diagramm\n- ✅ Notgroschen-Rechner, Säule-3a-Tracker, Steuer-Rückstellung\n- ✅ Excel und Google Sheets, ohne Makros, ohne Abo\n\nGelbe Felder ausfüllen, der Rest rechnet automatisch. Sofort-Download.\n\n*Planungswerkzeug, keine Steuer- oder Finanzberatung.*",
+    "prices": {
+      "chf": 990,
+      "usd": 1190,
+      "eur": 1090
+    }
+  },
+  {
+    "name": "Swiss Budget Planner 2026 – Excel & Google Sheets (CHF)",
+    "file": "products/budget-schweiz/dist/Swiss-Budget-Planner-2026.xlsx",
+    "cover": "products/budget-schweiz/dist/cover-en.png",
+    "benefit": "Download: Swiss budget (Excel)",
+    "description": "**A budget template built for life in Switzerland.**\n\nMonthly budget in CHF with 30+ Swiss categories (rent, Nebenkosten, health insurance, deductible, Serafe, GA/Half Fare, car, Pillar 3a, taxes …).\n\n- ✅ Balance, savings rate and deviations calculated automatically (red = over budget)\n- ✅ Annual overview with chart\n- ✅ Emergency fund calculator, Pillar 3a tracker, tax reserve planner\n- ✅ Works in Excel and Google Sheets – no macros, no subscription\n\nFill in the yellow cells, everything else is automatic. Instant download.\n\n*Planning tool, not tax or financial advice.*",
+    "prices": {
+      "chf": 990,
+      "usd": 1190,
+      "eur": 1090
+    }
+  }
+]
