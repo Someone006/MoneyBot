@@ -63,5 +63,17 @@
       "eur": 1590
     },
     "description": "**Alle Vorlagen zum Sparpreis – Deutsch und Englisch.**\n\n- Haushaltsbudget Schweiz 2026 (DE) + Swiss Budget Planner 2026 (EN)\n- Umzugs-Planer Schweiz (DE) + Moving in Switzerland Planner (EN)\n\nMonatsbudget mit Schweizer Kategorien, Notgroschen-, Säule-3a- und Steuer-Rückstellungs-Rechner, Umzugs-Checkliste mit automatischen Fristen. Excel & Google Sheets, sofort zum Download.\n\n*All templates in German and English. Planning tools, not tax or financial advice.*"
+  },
+  {
+    "name": "Kündigungsvorlagen Schweiz – 8 Briefe (Word & Google Docs)",
+    "file": "products/kuendigung-schweiz/dist/Kuendigungsvorlagen-Schweiz.docx",
+    "cover": "products/kuendigung-schweiz/dist/cover.png",
+    "benefit": "Download: 8 Kündigungsvorlagen (Word)",
+    "prices": {
+      "chf": 790,
+      "usd": 990,
+      "eur": 890
+    },
+    "description": "**Richtig kündigen in der Schweiz – mit 8 fertigen Briefvorlagen.**\n\n- Mietwohnung kündigen (inkl. Hinweis Familienwohnung)\n- Vorzeitiger Auszug mit Ersatzmieter (Art. 264 OR)\n- Krankenkasse: Grundversicherung (KVG) und Zusatzversicherung (VVG)\n- Handy-/Internet-Abo, Versicherungen (Hausrat, Haftpflicht, Auto), Fitness-Abo\n- Arbeitsstelle kündigen (Arbeitnehmer)\n\nJede Vorlage mit Tipp zu Fristen und den relevanten Gesetzesartikeln. Platzhalter ausfüllen, drucken, unterschreiben, per Einschreiben senden. Word, Pages und Google Docs.\n\n*Vorlagen ersetzen keine Rechtsberatung; dein Vertrag geht vor.*"
   }
 ]

@@ -8,7 +8,10 @@ Excel- & Google-Sheets-Vorlagen, die zur Schweiz passen: Budget in CHF mit Krank
 | Haushaltsbudget Schweiz 2026 (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_Owws2zlfIQ8XHFj7C979bcmaf5lDKnIBw7DbM13qHUe) |
 | Swiss Budget Planner 2026 (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_nA6EmGB3tGpyQ3hMwj0uuACNZ39CztpRvAjgm0j4qLS) |
 | Umzugs-Planer Schweiz (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn) |
+| Kündigungsvorlagen Schweiz: 8 Briefe (Word) | CHF 7.90 | [Kaufen](https://buy.polar.sh/polar_cl_t6ecM9h5qN6EqrkFTv7pdQJhci5F4JrSdZrT83hLGZ3) |
 | Moving in Switzerland Planner (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_e8HSmChjNQEXRxmNwOCIEkiSzYy3jAEoPx3Td2jUs1D) |
+
+📖 Gratis-Ratgeber: [Kündigungsfristen in der Schweiz – Übersicht 2026](ratgeber/kuendigungsfristen-schweiz.md)
 
 ## Gratis: Die wichtigsten Fristen beim Umzug in der Schweiz
 
