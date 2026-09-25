@@ -75,5 +75,29 @@
       "eur": 890
     },
     "description": "**Richtig kündigen in der Schweiz – mit 8 fertigen Briefvorlagen.**\n\n- Mietwohnung kündigen (inkl. Hinweis Familienwohnung)\n- Vorzeitiger Auszug mit Ersatzmieter (Art. 264 OR)\n- Krankenkasse: Grundversicherung (KVG) und Zusatzversicherung (VVG)\n- Handy-/Internet-Abo, Versicherungen (Hausrat, Haftpflicht, Auto), Fitness-Abo\n- Arbeitsstelle kündigen (Arbeitnehmer)\n\nJede Vorlage mit Tipp zu Fristen und den relevanten Gesetzesartikeln. Platzhalter ausfüllen, drucken, unterschreiben, per Einschreiben senden. Word, Pages und Google Docs.\n\n*Vorlagen ersetzen keine Rechtsberatung; dein Vertrag geht vor.*"
+  },
+  {
+    "name": "Wohnungsbewerbung Schweiz – Vorlagen & Dossier-Checkliste",
+    "file": "products/dossier-schweiz/dist/Wohnungsbewerbung-Schweiz.docx",
+    "cover": "products/dossier-schweiz/dist/cover-wohnung.png",
+    "benefit": "Download: Wohnungsbewerbung (Word)",
+    "prices": {
+      "chf": 790,
+      "usd": 990,
+      "eur": 890
+    },
+    "description": "**Hol dir die Wohnung – mit einem Dossier, das überzeugt.**\n\nIn Zürich, Genf oder Basel bewerben sich oft Dutzende auf eine Wohnung. Ein vollständiges, sauberes Dossier macht den Unterschied.\n\n- ✅ Checkliste: alles, was Verwaltungen verlangen (Betreibungsauszug, Lohnnachweis, Ausweis/Bewilligung, Referenzen …)\n- ✅ Anschreiben-Vorlage zum Ausfüllen\n- ✅ Mieter-Selbstauskunft als Tabelle\n- ✅ Profi-Tipps: Einkommens-Faustregel, Reihenfolge, Dateiname\n\nWord, Pages und Google Docs. Sofort-Download."
+  },
+  {
+    "name": "Bewerbungsvorlagen Schweiz – Lebenslauf & Motivationsschreiben",
+    "file": "products/dossier-schweiz/dist/Bewerbungsvorlagen-Schweiz.docx",
+    "cover": "products/dossier-schweiz/dist/cover-bewerbung.png",
+    "benefit": "Download: Bewerbungsvorlagen (Word)",
+    "prices": {
+      "chf": 990,
+      "usd": 1190,
+      "eur": 1090
+    },
+    "description": "**Bewerben wie es Schweizer Arbeitgeber erwarten.**\n\n- ✅ Lebenslauf im Schweizer Stil (Fotoplatz, Bewilligung, Sprachen, Referenzen)\n- ✅ Motivationsschreiben mit Schritt-für-Schritt-Aufbau\n- ✅ Checkliste für das komplette Dossier (Arbeitszeugnisse, Diplome, Referenzen)\n- ✅ Tipps für Quereinsteiger und Zugezogene\n\nWord, Pages und Google Docs. Platzhalter ersetzen – fertig. Sofort-Download."
   }
 ]

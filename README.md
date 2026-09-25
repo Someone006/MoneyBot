@@ -1,17 +1,25 @@
 # Vorlagen für den Schweizer Alltag · Swiss life templates
 
-Excel- & Google-Sheets-Vorlagen, die zur Schweiz passen: Budget in CHF mit Krankenkasse, Serafe, Säule 3a und Steuern, dazu ein Umzugs-Planer mit allen Fristen.
+Vorlagen für den Schweizer Alltag: Budget in CHF, Umzugs-Planer mit Fristen, Wohnungsbewerbung, Bewerbungsvorlagen (Lebenslauf) und Kündigungsvorlagen. Für Excel, Word und Google.
 
 | Produkt | Preis | Kaufen |
 |---|---|---|
-| **Schweiz-Paket: alle 4 Vorlagen (DE + EN)** | CHF 14.90 | [Jetzt kaufen](https://buy.polar.sh/polar_cl_NaqmaQzEcmoyMctwVsCq6fd2fxqlx86Tyaitl3zJ5h2) |
-| Haushaltsbudget Schweiz 2026 (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_Owws2zlfIQ8XHFj7C979bcmaf5lDKnIBw7DbM13qHUe) |
+| **Schweiz-Paket: Budget + Umzug, 4 Vorlagen (DE + EN)** | CHF 14.90 | [Jetzt kaufen](https://buy.polar.sh/polar_cl_NaqmaQzEcmoyMctwVsCq6fd2fxqlx86Tyaitl3zJ5h2) |
+| Haushaltsbudget Schweiz 2026 (Excel) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_Owws2zlfIQ8XHFj7C979bcmaf5lDKnIBw7DbM13qHUe) |
 | Swiss Budget Planner 2026 (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_nA6EmGB3tGpyQ3hMwj0uuACNZ39CztpRvAjgm0j4qLS) |
-| Umzugs-Planer Schweiz (DE) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn) |
-| Kündigungsvorlagen Schweiz: 8 Briefe (Word) | CHF 7.90 | [Kaufen](https://buy.polar.sh/polar_cl_t6ecM9h5qN6EqrkFTv7pdQJhci5F4JrSdZrT83hLGZ3) |
+| Umzugs-Planer Schweiz (Excel) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_ujwLZmdsLqtypfwgomnlujZV8yKRil1PsT7Nr1c2ekn) |
 | Moving in Switzerland Planner (EN) | CHF 9.90 | [Buy](https://buy.polar.sh/polar_cl_e8HSmChjNQEXRxmNwOCIEkiSzYy3jAEoPx3Td2jUs1D) |
+| Wohnungsbewerbung Schweiz (Word) | CHF 7.90 | [Kaufen](https://buy.polar.sh/polar_cl_7o012raukIOJyK8p2YEbAZKQM28j9HJy7Eq3I2PmDYR) |
+| Bewerbungsvorlagen Schweiz: Lebenslauf & Motivationsschreiben (Word) | CHF 9.90 | [Kaufen](https://buy.polar.sh/polar_cl_7LUSoRHeqoTISWG2EeKOg4alxuEGQekaCiwj12Oqm6x) |
+| Kündigungsvorlagen Schweiz: 8 Briefe (Word) | CHF 7.90 | [Kaufen](https://buy.polar.sh/polar_cl_t6ecM9h5qN6EqrkFTv7pdQJhci5F4JrSdZrT83hLGZ3) |
 
-📖 Gratis-Ratgeber: [Kündigungsfristen in der Schweiz – Übersicht 2026](ratgeber/kuendigungsfristen-schweiz.md)
+## Gratis-Ratgeber
+
+- [Wohnungsbewerbung Schweiz: diese Unterlagen brauchst du](ratgeber/wohnungsbewerbung-schweiz.md)
+- [Bewerbung in der Schweiz: Lebenslauf & Dossier](ratgeber/bewerbung-schweiz-lebenslauf.md)
+- [Budget erstellen in der Schweiz](ratgeber/budget-schweiz.md)
+- [Umzug in der Schweiz: Checkliste mit Fristen](ratgeber/umzug-schweiz-checkliste.md)
+- [Kündigungsfristen in der Schweiz](ratgeber/kuendigungsfristen-schweiz.md)
 
 ## Gratis: Die wichtigsten Fristen beim Umzug in der Schweiz
 
